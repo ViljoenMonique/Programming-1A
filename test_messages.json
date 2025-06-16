@@ -1,0 +1,136 @@
+[ {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:1:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:2:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:3:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Different message",
+  "messageId" : "2147483647",
+  "messageHash" : "21:4:Differentmessage"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:5:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:6:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "0650412376",
+  "messageHash" : "06:7:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Different message",
+  "messageId" : "2147483647",
+  "messageHash" : "21:8:Differentmessage"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "1280784984",
+  "messageHash" : "12:9:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:10:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "0604775123",
+  "messageHash" : "06:11:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Different message",
+  "messageId" : "2147483647",
+  "messageHash" : "21:12:Differentmessage"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:13:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:14:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:15:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Different message",
+  "messageId" : "2147483647",
+  "messageHash" : "21:16:Differentmessage"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:17:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:18:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:19:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Different message",
+  "messageId" : "2147483647",
+  "messageHash" : "21:20:Differentmessage"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:21:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:22:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:23:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Different message",
+  "messageId" : "2147483647",
+  "messageHash" : "21:24:Differentmessage"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:25:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:26:HelloAfrica"
+}, {
+  "recipient" : "+27821234567",
+  "message" : "Hello from South Africa",
+  "messageId" : "2147483647",
+  "messageHash" : "21:0:HelloAfrica"
+} ]

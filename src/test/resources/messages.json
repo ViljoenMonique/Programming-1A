@@ -1,0 +1,7 @@
+[
+    {"recipient": "+27834557896", "sender": "+27123456789", "message": "Test message 1", "flag": "Sent"},
+    {"recipient": "+27838884567", "sender": "+27123456789", "message": "Test message 2", "flag": "Stored"} 
+]  
+    
+        
+
