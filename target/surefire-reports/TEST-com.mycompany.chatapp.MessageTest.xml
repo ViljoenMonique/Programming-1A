@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.chatapp.MessageTest" time="7.578" tests="29" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.chatapp.MessageTest" time="7.167" tests="29" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Moniquev\AppData\Local\Temp\surefire9854031988944010203\surefirebooter-20250614145716566_3.jar C:\Users\Moniquev\AppData\Local\Temp\surefire9854031988944010203 2025-06-14T14-57-16_418-jvmRun1 surefire-20250614145716566_1tmp surefire_0-20250614145716566_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Moniquev\AppData\Local\Temp\surefire2542332756172481825\surefirebooter-20250617134659272_3.jar C:\Users\Moniquev\AppData\Local\Temp\surefire2542332756172481825 2025-06-17T13-46-59_089-jvmRun1 surefire-20250617134659272_1tmp surefire_0-20250617134659272_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.mycompany.chatapp.MessageTest"/>
     <property name="surefire.test.class.path" value="C:\Users\Moniquev\Documents\NetBeansProjects\ChatApp\target\test-classes;C:\Users\Moniquev\Documents\NetBeansProjects\ChatApp\target\classes;C:\Users\Moniquev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Moniquev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Moniquev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Moniquev\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Moniquev\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Moniquev\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Moniquev\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Moniquev\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Moniquev\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Moniquev\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Moniquev\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Moniquev\AppData\Local\Temp\surefire9854031988944010203\surefirebooter-20250614145716566_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Moniquev\AppData\Local\Temp\surefire2542332756172481825\surefirebooter-20250617134659272_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -46,14 +46,14 @@
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-25\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\Moniquev\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\Moniquev\AppData\Local\Temp\junit14617637212833656265"/>
+    <property name="java.io.tmpdir" value="C:\Users\Moniquev\AppData\Local\Temp\junit5971620793108193230"/>
     <property name="java.version" value="23.0.2"/>
     <property name="user.dir" value="C:\Users\Moniquev\Documents\NetBeansProjects\ChatApp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-23\bin;C:\Program Files\gradle-8.10\bin;C:\Users\Moniquev\AppData\Local\Microsoft\WindowsApps;C:\Users\Moniquev\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-23\bin;C:\Program Files\gradle-8.10\bin;C:\Program Files\Git\cmd;C:\Users\Moniquev\AppData\Local\Microsoft\WindowsApps;C:\Users\Moniquev\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testCheckSenderCell_InvalidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.101">
+  <testcase name="testCheckSenderCell_InvalidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.175">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -73,7 +73,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkSenderCell: sender=+12012345678,valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckMessage_ValidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.005">
+  <testcase name="testCheckMessage_ValidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.01">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -81,7 +81,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkMessage: message=Hello from South Africa, valid=true
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateMessageHash_EmptyMessage" classname="com.mycompany.chatapp.MessageTest" time="0.005">
+  <testcase name="testCreateMessageHash_EmptyMessage" classname="com.mycompany.chatapp.MessageTest" time="0.008">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -93,7 +93,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 createMessageHash: hash=00:0:
 ]]></system-out>
   </testcase>
-  <testcase name="testSendMessage_InvalidMessageId" classname="com.mycompany.chatapp.MessageTest" time="0.005">
+  <testcase name="testSendMessage_InvalidMessageId" classname="com.mycompany.chatapp.MessageTest" time="0.011">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -108,7 +108,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkMessageId: messageId=12345678901, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testReturnTotalMessages_AfterValidSend" classname="com.mycompany.chatapp.MessageTest" time="0.005">
+  <testcase name="testReturnTotalMessages_AfterValidSend" classname="com.mycompany.chatapp.MessageTest" time="0.009">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -121,7 +121,7 @@ checkSenderCell: sender=+27123456789,valid=true
 createMessageHash: hash=00:1:HelloAfrica
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckRecipientCell_NullNumber" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testCheckRecipientCell_NullNumber" classname="com.mycompany.chatapp.MessageTest" time="0.007">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -133,7 +133,7 @@ checkRecipientCell: recipient=null, valid=false
 checkRecipientCell: recipient=null, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckRecipientCell_InvalidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.003">
+  <testcase name="testCheckRecipientCell_InvalidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.006">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -145,7 +145,7 @@ checkRecipientCell: recipient=+12012345678, valid=false
 checkRecipientCell: recipient=+12012345678, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckSenderCell_ValidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.002">
+  <testcase name="testCheckSenderCell_ValidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.005">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -153,7 +153,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkSenderCell: sender=+27123456789,valid=true
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateMessageHash_NullMessage" classname="com.mycompany.chatapp.MessageTest" time="0.005">
+  <testcase name="testCreateMessageHash_NullMessage" classname="com.mycompany.chatapp.MessageTest" time="0.006">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -176,7 +176,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkSenderCell: sender=null,valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteMessage_NonExistentMessage" classname="com.mycompany.chatapp.MessageTest" time="3.493">
+  <testcase name="testDeleteMessage_NonExistentMessage" classname="com.mycompany.chatapp.MessageTest" time="3.112">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -210,7 +210,7 @@ checkRecipientCell: recipient=+277123456, valid=false
 checkRecipientCell: recipient=+277123456, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testStoreMessage_DoesNotSave_InvalidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.64">
+  <testcase name="testStoreMessage_DoesNotSave_InvalidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.663">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -225,7 +225,7 @@ checkRecipientCell: recipient=+12012345678, valid=false
     <system-err><![CDATA[Cannot store: Invalid message, recipient, sender or message ID 
 ]]></system-err>
   </testcase>
-  <testcase name="testStoreMessage_DoesNotSave_InvalidSender" classname="com.mycompany.chatapp.MessageTest" time="0.608">
+  <testcase name="testStoreMessage_DoesNotSave_InvalidSender" classname="com.mycompany.chatapp.MessageTest" time="0.6">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -242,7 +242,7 @@ checkSenderCell: sender=+12012345678,valid=false
     <system-err><![CDATA[Cannot store: Invalid message, recipient, sender or message ID 
 ]]></system-err>
   </testcase>
-  <testcase name="testStoreMessage_SavesToJson_ValidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.719">
+  <testcase name="testStoreMessage_SavesToJson_ValidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.542">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -256,7 +256,7 @@ checkMessage: message=Hello from South Africa, valid=true
 checkRecipientCell: recipient=+27821234567, valid=true
 ]]></system-out>
   </testcase>
-  <testcase name="testSendMessage_TooLongMessage" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testSendMessage_TooLongMessage" classname="com.mycompany.chatapp.MessageTest" time="0.006">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -268,7 +268,7 @@ sendMessage: messageId=0000000001, recipient=+27821234567, message=This is a ver
 checkMessage: message=This is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long message, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testStoreMessage_DoesNotSave_InvalidMessageId" classname="com.mycompany.chatapp.MessageTest" time="0.591">
+  <testcase name="testStoreMessage_DoesNotSave_InvalidMessageId" classname="com.mycompany.chatapp.MessageTest" time="0.545">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -284,7 +284,7 @@ checkMessageId: messageId=12345678901, valid=false
     <system-err><![CDATA[Cannot store: Invalid message, recipient, sender or message ID 
 ]]></system-err>
   </testcase>
-  <testcase name="testCheckMessage_TooLongMessage" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testCheckMessage_TooLongMessage" classname="com.mycompany.chatapp.MessageTest" time="0.005">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -295,7 +295,7 @@ checkMessage: message=This is a very long messageThis is a very long messageThis
 checkMessage: message=This is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long messageThis is a very long message, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testSendMessage_InvalidRecipient" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testSendMessage_InvalidRecipient" classname="com.mycompany.chatapp.MessageTest" time="0.005">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -309,7 +309,7 @@ checkMessage: message=Hello from South Africa, valid=true
 checkRecipientCell: recipient=+12012345678, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckMessageId_ValidId" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testCheckMessageId_ValidId" classname="com.mycompany.chatapp.MessageTest" time="0.005">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -317,7 +317,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkMessageId: messageId=0000000000, valid=true
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckSenderCell_TooShortNumber" classname="com.mycompany.chatapp.MessageTest" time="0.002">
+  <testcase name="testCheckSenderCell_TooShortNumber" classname="com.mycompany.chatapp.MessageTest" time="0.006">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -329,7 +329,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkSenderCell: sender=+27123456,valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testReturnTotalMessages_AfterInvalidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.003">
+  <testcase name="testReturnTotalMessages_AfterInvalidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.004">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -343,7 +343,7 @@ checkMessage: message=Hello from South Africa, valid=true
 checkRecipientCell: recipient=+12012345678, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckRecipientCell_ValidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testCheckRecipientCell_ValidSouthAfricanNumber" classname="com.mycompany.chatapp.MessageTest" time="0.005">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -351,7 +351,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 checkRecipientCell: recipient=+27821234567, valid=true
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckMessage_NullMessage" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testCheckMessage_NullMessage" classname="com.mycompany.chatapp.MessageTest" time="0.008">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -362,7 +362,7 @@ checkMessage: message=null, valid=false
 checkMessage: message=null, valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testSendMessage_ValidInput" classname="com.mycompany.chatapp.MessageTest" time="0.003">
+  <testcase name="testSendMessage_ValidInput" classname="com.mycompany.chatapp.MessageTest" time="0.005">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -375,14 +375,14 @@ checkSenderCell: sender=+27123456789,valid=true
 createMessageHash: hash=00:1:HelloAfrica
 ]]></system-out>
   </testcase>
-  <testcase name="testPrintMessages" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testPrintMessages" classname="com.mycompany.chatapp.MessageTest" time="0.002">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
 checkRecipientCell: recipient=+27821234567, valid=true
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateMessageHash_ValidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.003">
+  <testcase name="testCreateMessageHash_ValidMessage" classname="com.mycompany.chatapp.MessageTest" time="0.0">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -390,7 +390,7 @@ checkRecipientCell: recipient=+27821234567, valid=true
 createMessageHash: hash=00:0:HelloAfrica
 ]]></system-out>
   </testcase>
-  <testcase name="testSendMessage_InvalidSender" classname="com.mycompany.chatapp.MessageTest" time="0.004">
+  <testcase name="testSendMessage_InvalidSender" classname="com.mycompany.chatapp.MessageTest" time="0.015">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
@@ -406,7 +406,7 @@ checkMessageId: messageId=0000000001, valid=true
 checkSenderCell: sender=+12012345678,valid=false
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteMessage_SuccessfulDeletion" classname="com.mycompany.chatapp.MessageTest" time="1.283">
+  <testcase name="testDeleteMessage_SuccessfulDeletion" classname="com.mycompany.chatapp.MessageTest" time="1.31">
     <system-out><![CDATA[createMessageHash: hash=00:0:HelloAfrica
 Constructor: messageId=0000000000, messageHash=00:0:HelloAfrica, recipient=+27821234567,sender=+27123456789, message=Hello from South Africa, flag=Sent
 checkMessage: message=Hello from South Africa, valid=true
