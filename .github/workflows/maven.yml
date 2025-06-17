@@ -34,9 +34,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y xvfb
 
-      - name: Run tests with Maven (or skip)
+      - name: Verify Maven Environment
         run: |
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn test -Djava.awt.headless=false -Dmaven.test.failure.ignore=true --timeout 600
+          mvn --version
+          java -version
+
+      - name: Run tests with Maven (or skip)
+        timeout-minutes: 10  # Limits the step to 10 minutes
+        run: |
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn test -Djava.awt.headless=false -Dmaven.test.failure.ignore=true -e
         env:
           SKIP_TESTS: ${{ secrets.SKIP_TESTS || 'false' }}  # Set to 'true' in repository secrets to skip tests
         if: env.SKIP_TESTS != 'true'  # Run tests only if SKIP_TESTS is not 'true'
@@ -50,7 +56,7 @@ jobs:
         if: failure()
         run: |
           echo "Running with debug logging due to failure..."
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn -X test -Dmaven.test.failure.ignore=true --timeout 600
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn -X test -Dmaven.test.failure.ignore=true
 
       - name: Notify build status
         run: |
