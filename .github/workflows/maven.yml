@@ -8,8 +8,6 @@
 
 name: Programming 1B CI
 
-name: ChatApp CI
-
 on:
   push:
     branches: [ "main" ]
