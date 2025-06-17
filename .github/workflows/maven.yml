@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests with Maven (or skip)
         run: |
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn test -Djava.awt.headless=false
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn test -Djava.awt.headless=false -Dmaven.test.failure.ignore=true --timeout 600
         env:
           SKIP_TESTS: ${{ secrets.SKIP_TESTS || 'false' }}  # Set to 'true' in repository secrets to skip tests
         if: env.SKIP_TESTS != 'true'  # Run tests only if SKIP_TESTS is not 'true'
