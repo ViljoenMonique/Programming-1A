@@ -42,7 +42,7 @@ jobs:
       - name: Run tests with Maven (or skip)
         timeout-minutes: 10  # Limits the step to 10 minutes
         run: |
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn test -Djava.awt.headless=false -Dmaven.test.failure.ignore=true -e
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn test -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Dmaven.test.failure.ignore=true -X
         env:
           SKIP_TESTS: ${{ secrets.SKIP_TESTS || 'false' }}  # Set to 'true' in repository secrets to skip tests
         if: env.SKIP_TESTS != 'true'  # Run tests only if SKIP_TESTS is not 'true'
@@ -50,7 +50,7 @@ jobs:
       - name: Build without tests (if skipping)
         if: env.SKIP_TESTS == 'true'
         run: |
-          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn install -DskipTests -Djava.awt.headless=false
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn install -DskipTests -Djava.awt.headless=true -Dfile.encoding=UTF-8
 
       - name: Debug on failure
         if: failure()
