@@ -50,4 +50,8 @@ jobs:
         if: failure()
         run: |
           echo "Running with debug logging due to failure..."
-          mvn -X test
+          xvfb-run --auto-servernum --server-args="-screen 0 1280x1024x24" mvn -X test -Dmaven.test.failure.ignore=true --timeout 600
+
+      - name: Notify build status
+        run: |
+          echo "Build completed with status: ${{ job.status }}"
